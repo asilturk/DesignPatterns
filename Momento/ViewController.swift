@@ -12,8 +12,23 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        let game = Game()
+        let gameSystem = GameSystem()
+        let title = "currentGame"
+
+        game.fight()
+        game.fight()
+        game.fight()
+        game.lose()
+
+        try? gameSystem.save(game, title)
+
+        let didLoadGame = try? gameSystem.load(title)
+
+        print(didLoadGame)
     }
+
 
 
 }

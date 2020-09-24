@@ -13,6 +13,8 @@
 		EAB84FC5251D1D8400533830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB84FC3251D1D8400533830 /* Main.storyboard */; };
 		EAB84FC7251D1D8600533830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB84FC6251D1D8600533830 /* Assets.xcassets */; };
 		EAB84FCA251D1D8600533830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB84FC8251D1D8600533830 /* LaunchScreen.storyboard */; };
+		EAB84FD2251D1D9100533830 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB84FD1251D1D9100533830 /* Game.swift */; };
+		EAB84FD4251D1EEC00533830 /* GameSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB84FD3251D1EEC00533830 /* GameSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EAB84FC6251D1D8600533830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAB84FC9251D1D8600533830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAB84FCB251D1D8600533830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB84FD1251D1D9100533830 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		EAB84FD3251D1EEC00533830 /* GameSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				EAB84FC6251D1D8600533830 /* Assets.xcassets */,
 				EAB84FC8251D1D8600533830 /* LaunchScreen.storyboard */,
 				EAB84FCB251D1D8600533830 /* Info.plist */,
+				EAB84FD1251D1D9100533830 /* Game.swift */,
+				EAB84FD3251D1EEC00533830 /* GameSystem.swift */,
 			);
 			path = Momento;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				EAB84FC2251D1D8400533830 /* ViewController.swift in Sources */,
 				EAB84FBE251D1D8400533830 /* AppDelegate.swift in Sources */,
+				EAB84FD4251D1EEC00533830 /* GameSystem.swift in Sources */,
 				EAB84FC0251D1D8400533830 /* SceneDelegate.swift in Sources */,
+				EAB84FD2251D1D9100533830 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
