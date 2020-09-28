@@ -21,8 +21,8 @@ class ViewController: UIViewController {
         furkan.id = 1
         furkan.car.power = 101
 
-        print("person1: \(burak.description)")
-        print("person2: \(furkan.description)")
+        print(burak)
+        print(furkan)
     }
 
 
