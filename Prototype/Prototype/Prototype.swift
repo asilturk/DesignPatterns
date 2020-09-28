@@ -11,8 +11,9 @@ class Car {
     var power: Int
     var color: UIColor?
 
-    init(power: Int, color: UIColor? = nil) {
+    init(power: Int, color: UIColor? = .red) {
         self.power = power
+        self.color = color
     }
 }
 

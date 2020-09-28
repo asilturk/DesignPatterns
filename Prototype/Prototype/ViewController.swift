@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
-        let car = Car(power: 99, color: .red)
+        let car = Car(power: 99)
         let burak = Person(id: 0, name: "Burak", car: car)
 
         let furkan = burak.copy() as! Person
